@@ -5,7 +5,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Gallery from "./Gallery";
-import Header from "./Header";
+import Navbar from "./Navbar";
 
 export default function Snapshot() {
   return (
@@ -13,9 +13,10 @@ export default function Snapshot() {
       <div className="preloader">
         <div className="sk-spinner sk-spinner-pulse"></div>
       </div>
-      <Header />
+      <Navbar />
       <Home />
       <About />
+      {/* <About/> */}
       <Gallery />
       <Contact />
       <Footer />

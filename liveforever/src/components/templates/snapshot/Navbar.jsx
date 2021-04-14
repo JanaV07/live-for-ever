@@ -1,4 +1,4 @@
-export default function Header() {
+export default function Navbar() {
   return (
     <div className="navbar navbar-default navbar-fixed-top" role="navigation">
       <div className="container">

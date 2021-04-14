@@ -1,7 +1,8 @@
-export default function Team(params) {
-  return (
-    <>
-      <div id="team-carousel" className="owl-carousel">
+import React from 'react'
+
+export default function Birthday() {
+    return (
+        <div id="team-carousel" className="owl-carousel">
         <div className="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
           <div className="team-thumb">
             <div className="image-holder">
@@ -68,6 +69,5 @@ export default function Team(params) {
         </div>
 
      </div>
-    </>
-  );
+    )
 }

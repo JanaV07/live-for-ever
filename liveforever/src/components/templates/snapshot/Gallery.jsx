@@ -1,5 +1,5 @@
 export default function Gallery(params) {
-    return <section id="gallery">
+    return <section id="gallery" >
     <div className="container">
       <div className="row">
         <div
